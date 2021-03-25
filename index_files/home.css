@@ -1,0 +1,25 @@
+
+.hero-image {
+	background-image: url('stackoogle.png');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	position: relative;
+	object-fit: contain;
+}
+
+.search-bar {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	padding: 12px 20px;
+	border-radius: 30px;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0 0 10px #cfcfcf;
+}
+
+.search-bar:focus, .search-bar:active {	
+	outline: none !important;
+}
